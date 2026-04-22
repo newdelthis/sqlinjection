@@ -20,6 +20,7 @@ try {
 
     // INTENTIONALLY VULNERABLE + BROKEN
 	String query = "SELECT title, author FROM books WHERE publisher = '" + publisher;
+	// Enter this: ' UNION SELECT USERNAME, PASSWORD FROM users 
 
     out.println("<b>Query:</b> " + query + "<br><br>");
 
